@@ -1,0 +1,92 @@
+
+
+
+uma camada escondida com 5 neuronios:
+	Acuracia do modelo:  1.0
+	Número de iterações:  125
+	
+	Acuracia do modelo:  1.0
+	Número de iterações:  115
+	
+	Acuracia do modelo:  0.9993438320209974
+	Número de iterações:  121
+
+uma camada escondida com 10 neuronios:
+	Acuracia do modelo:  1.0
+	Número de iterações:  90
+	
+	Acuracia do modelo:  1.0
+	Número de iterações:  89
+
+	Acuracia do modelo:  1.0
+	Número de iterações:  94
+
+uma camada escondida com 20 neuronios:
+	Acuracia do modelo:  1.0
+	Número de iterações:  72
+
+	Acuracia do modelo:  1.0
+	Número de iterações:  75
+
+	Acuracia do modelo:  1.0
+	Número de iterações:  69
+
+duas camadas escondidas com 2 neuronios cada:
+	Acuracia do modelo:  0.9980314960629921
+	Número de iterações:  360
+
+	Acuracia do modelo:  1.0
+	Número de iterações:  319
+
+	Acuracia do modelo:  0.9980314960629921
+	Número de iterações:  375
+
+duas camadas escondidas com 5 neuronios cada:
+	Acuracia do modelo:  1.0
+	Número de iterações:  77
+
+	Acuracia do modelo:  1.0
+	Número de iterações:  79
+
+	Acuracia do modelo:  1.0
+	Número de iterações:  89
+
+duas camadas escondidas com 10 neuronios cada:
+	Acuracia do modelo:  1.0
+	Número de iterações:  52
+
+	Acuracia do modelo:  1.0
+	Número de iterações:  57
+
+	Acuracia do modelo:  0.9993438320209974
+	Número de iterações:  59
+
+três camadas escondidas com 2 neuronios cada:
+	Acuracia do modelo:  1.0
+	Número de iterações:  338
+
+	Acuracia do modelo:  1.0
+	Número de iterações:  345
+
+	Acuracia do modelo:  1.0
+	Número de iterações:  410
+
+três camadas escondidas com 3 neuronios cada:
+	Acuracia do modelo:  0.9776902887139107
+	Número de iterações:  301
+
+	Acuracia do modelo:  0.9888451443569554
+	Número de iterações:  321
+
+	Acuracia do modelo:  1.0
+	Número de iterações:  373
+
+três camadas escondidas com 5 neuronios cada:
+	Acuracia do modelo:  0.9901574803149606
+	Número de iterações:  169
+
+	Acuracia do modelo:  0.9993438320209974
+	Número de iterações:  161
+
+	Acuracia do modelo:  1.0
+	Número de iterações:  125

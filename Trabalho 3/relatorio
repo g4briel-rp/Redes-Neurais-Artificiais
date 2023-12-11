@@ -1,0 +1,56 @@
+Alunos: Gabriel Ribeiro Passos
+	Victor de Souza Vilela da Silva
+
+Resultados avaliados:
+
+SVC with linear kernel
+Tempo de treinamento: 0.5777342319488525s
+Score do modelo SVC with linear kernel nos dados de teste: 0.9420289855072463
+Predicted:  [1 0 1 1 0 1 1 0 0 0 1 1 1 0 1 1 1 1 1 1]
+Expected:  [1 0 0 1 0 1 1 0 0 0 1 1 1 0 1 1 1 1 1 1]
+
+LinearSVC (linear kernel)
+Tempo de treinamento: 0.013851404190063477s
+Score do modelo LinearSVC (linear kernel) nos dados de teste: 0.9347826086956522
+Predicted:  [1 0 1 1 0 1 1 0 0 0 1 1 1 0 1 1 0 1 1 1]
+Expected:  [1 0 0 1 0 1 1 0 0 0 1 1 1 0 1 1 1 1 1 1]
+
+SVC with RBF kernel
+Tempo de treinamento: 0.0065860748291015625s
+Score do modelo SVC with RBF kernel nos dados de teste: 0.9130434782608695
+Predicted:  [1 0 1 1 0 1 1 0 0 0 1 1 1 0 1 0 1 0 1 1]
+Expected:  [1 0 0 1 0 1 1 0 0 0 1 1 1 0 1 1 1 1 1 1]
+
+SVC with polynomial (degree 2) kernel
+Tempo de treinamento: 8.57551097869873s
+Score do modelo SVC with polynomial (degree 2) kernel nos dados de teste: 0.927536231884058
+Predicted:  [1 0 1 1 0 1 1 0 0 0 1 1 1 0 1 0 1 1 1 1]
+Expected:  [1 0 0 1 0 1 1 0 0 0 1 1 1 0 1 1 1 1 1 1]
+
+perceptron multicamadas
+Tempo de treinamento:  0.4034254550933838
+Acuracia do modelo:  0.9782608695652174
+Predicted:  [1 1 0 1 0 0 0 0 0 1 1 1 0 1 0 1 1 0 1 1]
+Expected:  [1 1 1 1 0 0 1 0 0 1 1 1 0 1 0 1 1 0 1 1]
+
+*Comparando os resultados*
+
+O Perceptron Multicamadas obteve um resultado melhor que os modelos de Support Vector Machines. O score do Perceptron Multicamadas foi de 0.9782608695652174, enquanto o score dos modelos de Support Vector Machines foi de 0.9130434782608695 (RBF kernel) ou 0.927536231884058 (polinomial kernel).
+
+O resultado do Perceptron Multicamadas é melhor porque foi capaz de classificar corretamente mais dados de teste. Isso significa que o modelo é mais capaz de generalizar para novos dados.
+
+*Comparando o tempo de treinamento*
+
+O tempo de treinamento do Perceptron Multicamadas foi maior que o tempo de treinamento dos modelos de Support Vector Machines. O tempo de treinamento do Perceptron Multicamadas foi de 0,4034254550933838 segundos, enquanto o tempo de treinamento dos modelos de Support Vector Machines foi de 0,0065860748291015625 segundos (RBF kernel) ou 8,57551097869873 segundos (polinomial kernel).
+
+O tempo de treinamento do Perceptron Multicamadas é maior porque o modelo precisa aprender mais parâmetros. O Perceptron Multicamadas possui duas camadas ocultas com 100 neurônios cada, totalizando 2000 parâmetros. Os modelos de Support Vector Machines, por outro lado, possuem apenas um parâmetro, que é o valor do hiperparâmetro C.
+
+*Qual é mais simples?*
+
+O Perceptron Multicamadas é mais simples que os modelos de Support Vector Machines. O Perceptron Multicamadas é um modelo linear, enquanto os modelos de Support Vector Machines podem ser lineares ou não lineares. Os modelos não lineares são mais complexos porque precisam aprender uma função não linear para separar os dados.
+
+Além disso, o Perceptron Multicamadas é um modelo menos parametrizado que os modelos de Support Vector Machines. O Perceptron Multicamadas possui apenas 2000 parâmetros, enquanto os modelos de Support Vector Machines podem ter milhares ou até milhões de parâmetros.
+
+*Conclusão*
+
+O Perceptron Multicamadas obteve um resultado melhor que os modelos de Support Vector Machines. O Perceptron Multicamadas também é mais simples que os modelos de Support Vector Machines.
